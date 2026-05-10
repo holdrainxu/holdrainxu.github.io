@@ -1,14 +1,20 @@
-# this file contains the social media links and usernames of the author
-# the socials will be displayed in the order they are defined here
-# for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
-cv_pdf: /assets/pdf/example_pdf.pdf # path to your CV PDF file
-email: you@example.com # your email address
-inspirehep_id: 1010907 # Inspire HEP author ID
-rss_icon: true # comment this line to hide the RSS icon
-scholar_userid: qc6CJjYAAAAJ # your Google Scholar ID
-# wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
-# whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
-custom_social: # can be any name here other than the ones already defined in the jekyll-socials plugin
-  logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
-  title: Custom Social
-  url: https://www.alberteinstein.com/
+# Social media links shown in the navbar / about page footer.
+# The order here is the display order.
+
+cv_pdf: /cv/                              # CV icon now opens the rendered CV page (not the raw PDF)
+email: xuhaoran@mail.dlut.edu.cn          # primary contact (institutional)
+rss_icon: true                            # comment this line to hide the RSS icon
+
+# Secondary contact email (Gmail) shown as an extra icon
+email_alt:
+  logo: fa-solid fa-paper-plane           # Font Awesome icon class
+  title: Email (Gmail)
+  url: mailto:xuhaoran5401@gmail.com
+
+# Uncomment & fill in once you have these public profiles:
+# scholar_userid:                         # Google Scholar ID
+# orcid_id: 0000-0000-0000-0000           # ORCID iD
+# researchgate_username:                  # ResearchGate
+# github_username: holdrainxu             # GitHub
+# linkedin_username:                      # LinkedIn
+# wechat_qr: wechat-qr.png                # add /assets/img/wechat-qr.png if needed

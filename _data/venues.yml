@@ -1,9 +1,6 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
-
-"PhysRev":
-  url: https://journals.aps.org/
-
-"Vision":
-  color: "#009f36"
+# Custom colour / URL for journal abbreviations used in publications. The key
+# is the @string key in papers.bib (or the abbr field). Add entries to give a
+# specific journal a coloured pill on the publications page, e.g.:
+#   "Adv. Eng. Inform.":
+#     url: https://www.sciencedirect.com/journal/advanced-engineering-informatics
+#     color: "#1e7a4f"

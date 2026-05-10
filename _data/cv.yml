@@ -1,189 +1,289 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Haoran Xu
+  label: PhD Candidate · Geotechnical Engineering · DLUT
+  email: xuhaoran@mail.dlut.edu.cn
+  location: Dalian, China
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: >-
+    PhD candidate (2nd year, expected graduation 2028) at Dalian University of
+    Technology. Research at the interface of rock mechanics and AI: digital
+    twin of tunnels, multi-modal data fusion, diffusion-based microseismic
+    denoising, and flexible, low-cost, automated vision-based monitoring of
+    high steep slopes and tunnel surrounding rock at large area.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
     - network: GitHub
-      username: example
-    - network: LinkedIn
-      username: example
+      username: holdrainxu
 
   address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+    street: No. 2 Linggong Road, Ganjingzi District
+    city: Dalian
+    region: Liaoning
+    postalCode: "116024"
+    countryCode: CN
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
+      - institution: Dalian University of Technology (985 / Double First-Class)
+        location: Dalian, China
+        url: https://en.dlut.edu.cn/
+        area: Geotechnical Engineering
+        studyType: PhD · direct M.Phil.–PhD (recommended)
+        start_date: 2022-09
+        end_date: present
         score: ""
-        courses: "Theory of Relativity"
+        courses: "Rock mechanics · Continuum mechanics · Numerical methods in geotechnics · Deep learning"
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Institute of Rock Instability and Seismicity Research, School of Infrastructure Engineering."
+          - "Led by Prof. Chun-an Tang (Cheung Kong Distinguished Professor of the Ministry of Education; Recipient of the National Science Fund for Distinguished Young Scholars of China)."
+          - "Advised by Prof. Shibin Tang (National Young Top-Notch Talent)."
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+      - institution: Dalian Maritime University (211 / Double First-Class)
+        location: Dalian, China
+        url: https://english.dlmu.edu.cn/
+        area: Civil Engineering
+        studyType: B.Eng. · Class Rank #1
+        start_date: 2018-09
+        end_date: 2022-06
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Graduated as the top student of the Civil Engineering programme."
 
-    Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
-        highlights:
-          - Relativity
-          - Description 2.
-
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
-        highlights:
-          - Description 1.
-          - Description 2.
-
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+    Highlights:
+      - name: Highlights
+        icon: fa-solid fa-star
+        keywords: >-
+          First-author SCI: 2 CAS Tier-1 Top + 1 CAS Tier-2 Top, cumulative IF 21.6 ·
+          5 granted invention patents (student first inventor) + 10+ published ·
+          Core technical contributor on 4 national / provincial projects (≈ 3.37 M CNY) ·
+          Sole technical lead on 2 industry-sponsored projects.
 
     Awards:
-      - title: Nobel Prize in Physics
+      - title: Doctoral Excellence Scholarship (top 3%)
         authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+          - "Ministry of Education, China"
+        date: 2025
+        awarder: Ministry of Education
+        summary: 10,000 CNY · One of the highest-prestige scholarships for PhD candidates in China.
 
-      - title: Max Planck Medal
+      - title: National Scholarship for Encouragement (×3 consecutive years)
         authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+          - "Ministry of Education, China"
+        date: 2021
+        awarder: Ministry of Education
+        summary: Top 3% · 5,000 CNY each · awarded three consecutive years during undergraduate study.
+
+      - title: Second Prize, Science & Technology Progress Award
+        authors:
+          - "China General Chamber of Commerce"
+        date: 2024-12
+        awarder: China General Chamber of Commerce (with national-award nomination eligibility)
+        summary: Technical contributor.
+
+      - title: Excellence Award, Zhou Pei-yuan National College Mechanics Competition
+        authors:
+          - "Chinese Society of Theoretical and Applied Mechanics"
+        date: 2021
+        awarder: Zhou Pei-yuan National College Mechanics Competition
+
+      - title: Outstanding Graduate, Dalian Municipality
+        date: 2022
+        awarder: Dalian Municipality
+
+      - title: Provincial Grade-B, National College Innovation & Entrepreneurship Program
+        authors:
+          - "as Team Leader"
+        date: 2021
+        awarder: Liaoning Province
+        summary: "Project: Visualization of Bridge Health Monitoring Data in BIM."
+
+      - title: University-level Honors
+        date: 2018-2022
+        awarder: DMU & DLUT
+        summary: >-
+          Outstanding Bachelor's Thesis (DMU); Outstanding Postgraduate (DLUT, multiple times);
+          Second Prize, National College Computer Design Competition (university); Single-event
+          scholarships; Outstanding Student Cadre & Youth-League Cadre.
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
+      - title: A dual-condition diffusion-based microseismic signals denoiser for real-world engineering noise
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+          - "Haoran Xu"
+          - "Shibin Tang*"
+          - "Yang Mao"
+        publisher: "Advanced Engineering Informatics, 71, 104374 · CAS Tier-1 Top, IF 9.9"
+        releaseDate: 2026-01-01
+        summary: >-
+          Pioneered the use of diffusion models for engineering microseismic denoising. A
+          dual-condition reverse process preserves weak precursors of failure under realistic
+          engineering noise and provides cleaner inputs for rockburst early-warning models.
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
+      - title: "Digital tunnel geometry model (DTGM): A multimodal data-fusion framework for rock mass feature quantification"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+          - "Haoran Xu"
+          - "Shibin Tang*"
+        publisher: "Int. J. Rock Mechanics & Mining Sciences, 194, 106212 · CAS Tier-1 Top, IF 7.5"
+        releaseDate: 2025-09-01
+        summary: >-
+          A LiDAR + photogrammetry fusion framework that produces a textured, geo-referenced 3D
+          model of the tunnel face and walls, and automatically extracts discontinuities, fracture
+          statistics, over/under-break, and surface displacement.
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
+      - title: Rock fracture identification algorithm based on the confidence score and non-maximum suppression
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+          - "Haoran Xu"
+          - "Shibin Tang*"
+          - "Jia Wang"
+          - "Bo Dong"
+          - "Xu Wang"
+          - "Kaiwen Zhao"
+          - "Jiabao Geng"
+        publisher: "Bull. Eng. Geol. Environ., 83(6), 213 · CAS Tier-2 Top, IF 4.2"
+        releaseDate: 2024-06-01
+        summary: >-
+          A fracture-aware detection pipeline combining a learned confidence score with non-maximum
+          suppression for thin, low-contrast traces — a building block of the DTGM framework.
 
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - title: Review for the microseismic source location in surrounding rock of deep-buried tunnels
+        authors:
+          - "Shibin Tang"
+          - "Yonghao Liu"
+          - "Haoran Xu"
+          - "Ximao Chen"
+        publisher: "Journal of Central South University, 30(12), 4182–4196 · JCR Q1, IF 4.4"
+        releaseDate: 2023-12-01
 
-    Languages:
-      - name: German
-        summary: "Native speaker"
+    Patents:
+      - bullet: "**Granted · CN121148105A · 2025-11-18 · DLUT** &mdash; Vehicle-mounted &amp; mobile-platform multimodal geo-hazard sensing, alarming and avoidance system."
 
-      - name: English
-        summary: "Fluent"
+      - bullet: "**Granted · CN121140636A · 2026-04-07 · DLUT** &mdash; Lightweight rock–soil deformation and motion monitoring system."
 
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - bullet: "**Granted · CN121140665A · 2026-03-24 · DLUT** &mdash; High-density pixel-tracking-based real-time deformation monitoring method."
 
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
+      - bullet: "**Granted · CN119784814A · 2025-10-31 · DLUT** &mdash; Laser-point-cloud-based tunnel over-/under-excavation identification &amp; volume calculation."
 
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
+      - bullet: "**Granted · CN116883373A · 2026-02-13 · DLUT / Nanfen Open-Pit Mine / CRCC 24th Bureau Fujian Co.** &mdash; Rock-mass fracture identification method."
 
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+      - bullet: "**Granted · CN116575920A · 2023-05-08 · DLUT** &mdash; Tunnel rockburst prevention combining advance stress-relief boreholes and hydraulic fracturing."
+
+      - bullet: "**Published · CN121579849A · 2025-10-11 · DLUT** &mdash; Diffusion-model-based microseismic signal denoising method and system."
+
+      - bullet: "**Published · CN121582302A · 2025-10-11 · DLUT** &mdash; Color- and geometry-fused tunnel point-cloud registration method."
+
+      - bullet: "**Published · CN119919576A · 2024-12-18 · DLUT** &mdash; Static digital-twin tunnel model construction."
+
+      - bullet: "**Published · CN119919473A · 2024-12-18 · DLUT** &mdash; Voxel-based tunnel over-/under-excavation identification and volume calculation."
+
+      - bullet: "**Published · CN119941828A · 2024-12-18 · DLUT** &mdash; Monte-Carlo-based automatic tunnel over-/under-excavation volume calculation."
+
+      - bullet: "**Published · CN119941632A · 2024-12-18 · DLUT** &mdash; Automated fracture-parameter extraction from a digital-twin model."
+
+      - bullet: "**Published · CN118274739A · 2024-04-03 · DLUT** &mdash; Tunnel-contour extraction from 3D laser-scan data."
+
+      - bullet: "**Published · CN118333889A · 2024-04-03 · DLUT** &mdash; Denoising method for tunnel 3D laser-scan data."
 
     Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
+      - name: Spatiotemporal intelligent rockburst early-warning in deep hard rock
+        summary: >-
+          NSFC General Program · 500 k CNY · PI: Prof. Shibin Tang · Role: core technical
+          contributor. Pioneered the use of diffusion models in engineering microseismic denoising
+          to preserve weak precursory signals, and built a deep-learning spatiotemporal early-
+          warning model for rockburst on top of the denoised data; published in Adv. Eng. Inform.
+          (CAS Tier-1 Top, IF 9.9).
         highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+          - "Diffusion-based microseismic denoiser (Adv. Eng. Inform., 2026)"
+          - "Spatiotemporal early-warning network for rockburst"
+        start_date: 2024-01-01
+        end_date: present
 
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Progressive deterioration & protective mining of steep high-cold open-pit slopes (Xinjiang)
+        summary: >-
+          NSFC Joint Fund Program · 570 k CNY · PI: Prof. Shibin Tang · Role: core technical
+          contributor. Targeting the difficulty of deploying conventional contact-based monitoring
+          in steep, high-cold environments, developed a non-contact vision-based deformation
+          monitoring solution and built a lightweight edge-side prototype, providing a key
+          observation channel for progressive slope-deterioration warning. Methods are protected
+          by a granted Chinese invention patent.
+        start_date: 2023-01-01
+        end_date: present
 
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Digitalization & intelligent recognition of tunnel engineering-geological information under complex environments
+        summary: >-
+          Industry contract with Guangxi Hydraulic & Electric Survey, Design and Research Institute ·
+          2,000 k CNY · 2025.10–2027.10 · Role: sole technical lead. Owned the entire pipeline from
+          requirement analysis to algorithm delivery, independently developing core algorithms
+          including the Digital Tunnel Geometry Model (DTGM), intelligent rock-mass fracture
+          identification, tunnel over/under-excavation recognition and defect detection. Underpins
+          one IJRMMS (CAS Tier-1 Top) paper and 3 granted invention patents.
+        start_date: 2025-10-01
+        end_date: 2027-10-01
+
+      - name: High-density feature-tracking-based real-time intelligent monitoring of slope deformation
+        summary: >-
+          Industry contract with Guangxi Jiaoke Group · 300 k CNY · 2026.01–2027.02 · Role: sole
+          technical lead. Independently delivered the project end-to-end, from technical roadmap
+          to on-site deployment. Targeting large-area, low-cost, automated, real-time deformation
+          detection in cluttered natural scenes, proposed and implemented a high-density
+          pixel-tracking visual solution, protected by a granted Chinese invention patent.
+        start_date: 2026-01-01
+        end_date: 2027-02-01
+
+      - name: Other classified national engineering projects
+        summary: Details available upon request, subject to confidentiality.
+
+      - name: NSFC Young Student Basic Research Program (Doctoral) · sole applicant
+        summary: >-
+          Independently authored all core sections of the proposal — rationale, research content,
+          technical roadmap, feasibility analysis, expected outcomes — and submitted as the sole
+          applicant. End-to-end experience of an academic-grant application from research-question
+          framing to roadmap design.
+        start_date: 2025-01-01
+
+    Skills:
+      - name: AI / Algorithms
+        level: Advanced
+        icon: fa-solid fa-brain
+        keywords: "Diffusion models, machine learning, point-cloud processing, signal processing, multi-modal data fusion, object detection"
+
+      - name: Programming
+        level: Advanced
+        icon: fa-solid fa-code
+        keywords: "Python, C++"
+
+      - name: Systems & HPC
+        level: Advanced
+        icon: fa-solid fa-terminal
+        keywords: "Linux, GPU/CPU parallel computing, Git, Docker"
+
+      - name: Numerical simulation
+        level: Advanced
+        icon: fa-solid fa-cubes
+        keywords: "ANSYS, ABAQUS, FLAC, RFPA"
+
+    Languages:
+      - name: Mandarin Chinese
+        summary: "Native"
+
+      - name: English
+        summary: "CET-6 (577); independently authoring and reviewing SCI papers."
+
+    Service:
+      - name: Journal reviewer
+        icon: fa-solid fa-pen-nib
+        keywords: "Automation in Construction · Advanced Engineering Informatics · Int. J. Rock Mech. Min. Sci. · Rock Mechanics and Rock Engineering, etc."
+
+      - name: Conferences
+        icon: fa-solid fa-microphone
+        keywords: "Multiple oral presentations at conferences in rock mechanics, underground engineering and intelligent monitoring."
+
+      - name: Doctoral Student Party-branch Secretary
+        icon: fa-solid fa-people-group
+        keywords: "Research Institute, School of Infrastructure Engineering, Dalian University of Technology (current)"
+
+      - name: Student & Youth-League cadre
+        icon: fa-solid fa-user-group
+        keywords: "Dalian Maritime University, 2018–2022"
+
+    Interests:
+      - name: Research interests
+        icon: fa-solid fa-magnifying-glass
+        keywords: "Digital twin · Multi-modal data fusion · Tunnel surrounding-rock stability · High-precision real-time vision-based geo-hazard monitoring"

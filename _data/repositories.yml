@@ -1,14 +1,11 @@
+# Edit this file to feature your own GitHub profile / repositories.
+# This page is currently hidden from the navbar (see _pages/repositories.md, nav: false).
+# To re-enable it, set nav: true on that page.
+
 github_users:
-  - torvalds
-  - alshedivat
+  - holdrainxu
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  # - holdrainxu/your-repo-name

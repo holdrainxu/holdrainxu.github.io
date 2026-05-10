@@ -1,115 +1,110 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
+@string{aei = {Advanced Engineering Informatics}}
+@string{ijrmms = {International Journal of Rock Mechanics and Mining Sciences}}
+@string{begeo = {Bulletin of Engineering Geology and the Environment}}
+@string{jcsu = {Journal of Central South University}}
 
-@book{einstein1920relativity,
-  title     = {Relativity: the Special and General Theory},
-  author    = {Einstein, Albert},
-  year      = {1920},
-  publisher = {Methuen & Co Ltd},
-  html      = {relativity.html}
+% =============================================================
+%                       Journal articles
+% =============================================================
+
+@unpublished{xu2026slope4d,
+  abbr        = {Submitted},
+  bibtex_show = {true},
+  title       = {A 4{D} slope deformation monitoring method based on multi-source optical and geometric information fusion},
+  author      = {Xu, Haoran and Tang, Shibin},
+  note        = {Manuscript under review},
+  year        = {2026},
+  abstract    = {Slope deformation monitoring underpins the safe operation of open-pit mines, transportation cuts and natural-hazard-prone slopes. Conventional approaches, however, are difficult to deploy at scale: point-based instrumentation (total station, GNSS, extensometers) yields only sparse measurements and demands intensive on-site maintenance; ground-based InSAR depends on costly hardware and is sensitive to atmospheric conditions; and image-based methods often degrade in vegetated, illumination-varying scenes and rarely fuse three-dimensional geometry into the monitoring workflow. We propose a four-dimensional (space + time) slope deformation monitoring framework that fuses multi-source optical information (sequential imagery and photogrammetric features) with geometric information (LiDAR / structured-light point clouds), producing a dense deformation field over the slope face that evolves continuously through time. A geometry-aware cross-modal association module enforces consistency between the optical and geometric streams, and a spatiotemporal aggregation strategy propagates the deformation field across observation epochs while suppressing illumination drift, occlusion and vegetation-induced clutter. The framework is designed for flexible deployment with commodity cameras, supports large-area, fully automated monitoring at low hardware cost, and remains stable under typical environmental disturbances. By extending contact-free slope monitoring from sparse points and short observation windows to dense, continuous 4D observation, it offers a practical observation channel for early-warning systems that exploit the full spatiotemporal evolution of slope deformation.},
+  preview     = {slope.jpg},
+  selected    = {true}
 }
 
-@book{einstein1956investigations,
+@unpublished{xu2026robust,
+  abbr        = {Submitted},
   bibtex_show = {true},
-  title       = {Investigations on the Theory of the Brownian Movement},
-  author      = {Einstein, Albert},
-  year        = {1956},
-  publisher   = {Courier Corporation},
-  preview     = {brownian-motion.gif}
+  title       = {A robust framework for high-fidelity digital tunnel modeling under geometric and textural degradation},
+  author      = {Xu, Haoran and Tang, Shibin and Gan, Bin and Li, Yiming and Chen, Peizhao and Liu, Guangyang},
+  note        = {Manuscript under review},
+  year        = {2026},
+  abstract    = {Timely hazard identification is critical for tunnel safety, yet geometric and textural degradation in underground scenes hinders reliable long-range modeling. To address this, a robust framework tailored for automated monitoring and geological feature enhancement is proposed. First, a geometric--photometric coupled manifold (GPCM) descriptor is developed to resolve registration ambiguity in featureless tunnels, establishing a geometric foundation for deformation monitoring. Second, a spherical topology-based texture mapping method generates high-fidelity models for remote fracture and leakage detection. Validated on a new large-scale benchmark (514 pairs), GPCM outperforms existing methods, improving registration recall (RR) by 72.35\% and achieving sub-centimeter accuracy. With real-time efficiency (0.03 s/Kps), this framework effectively supports hazard warning and dynamic digital twin updates, paving the way for smart tunnel construction.},
+  preview     = {tc.jpg},
+  selected    = {true}
 }
 
-@article{einstein1950meaning,
-  abbr        = {AJP},
+@article{xu2026dualcondition,
+  abbr        = {Adv. Eng. Inform.},
   bibtex_show = {true},
-  title       = {The meaning of relativity},
-  author      = {Einstein, Albert and Taub, AH},
-  journal     = {American Journal of Physics},
-  volume      = {18},
+  title       = {A dual-condition diffusion-based microseismic signals denoiser for real-world engineering noise},
+  author      = {Xu, Haoran and Tang, Shibin and Mao, Yang},
+  journal     = aei,
+  volume      = {71},
+  pages       = {104374},
+  year        = {2026},
+  publisher   = {Elsevier},
+  doi         = {10.1016/j.aei.2026.104374},
+  url         = {https://doi.org/10.1016/j.aei.2026.104374},
+  abstract    = {Microseismic monitoring represents an information-rich sensing modality in rock mass engineering, which is crucial for assessing rock mass stability during construction. However, the complex non-stationary noise generated by construction and human activities limits its analytical value, resulting in degraded performance in downstream inference within automated monitoring pipelines. To address this challenge, the study innovatively proposes a diffusion-based microseismic signal denoiser (DMSD). The main contributions of this work are as follows: (1) This study encodes the noise distribution and characteristics as a condition into the diffusion model, forming a dual-condition denoising diffusion model conditioned on noise and diffusion time step, which effectively preserves the time-frequency characteristics of microseismic signals while precisely suppressing noise. (2) A ten-million-scale noise-microseismic dataset encompassing diverse engineering noise types was constructed. Experimental results on the dataset indicate that DMSD outperforms existing baseline denoising methods across multiple evaluation metrics, achieving an average signal-to-noise ratio (SNR) improvement of 41.7\% and enhancing arrival picking accuracy (error < 1 ms) by 30.1\% compared to the denoising baselines. (3) Furthermore, this study reveals new engineering knowledge by analyzing the adaptability of denoising methods to varying noise conditions, thereby providing actionable insights for method selection in practice. The proposed denoiser thereby enhances the reliability of downstream microseismic analysis and facilitates more robust and interpretable engineering informatics systems.},
+  preview     = {dd.jpg},
+  selected    = {true}
+}
+
+@article{xu2025dtgm,
+  abbr        = {IJRMMS},
+  bibtex_show = {true},
+  title       = {Digital tunnel geometry model ({DTGM}): {A} multimodal data fusion framework for rock mass feature quantification},
+  author      = {Xu, Haoran and Tang, Shibin},
+  journal     = ijrmms,
+  volume      = {194},
+  pages       = {106212},
+  year        = {2025},
+  publisher   = {Elsevier},
+  doi         = {10.1016/j.ijrmms.2025.106212},
+  url         = {https://doi.org/10.1016/j.ijrmms.2025.106212},
+  abstract    = {Accurate acquisition of rock mass parameters in complex tunnel environments remains challenging due to limitations of conventional non-contact measurement techniques. This study introduces a novel digital tunnel geometry model (DTGM) framework designed to address the limitations associated with reliance on a single data source. By implementing multi-source data fusion of LiDAR and photogrammetric measurements, the DTGM achieves millimeter-level geometric accuracy in rock mass characterization. In the study, three innovative contributions are introduced: (1) an automated robust denoising algorithm for tunnel point clouds, (2) a surface reconstruction optimization algorithm emphasizing the preservation of rock mass morphological undulations and fracture structures, and (3) a parametric data fusion methodology coupling geometric models with rock mass attributes. Comparative analysis shows that the proposed method offers higher computational efficiency and reconstruction quality. Case studies validate the effectiveness of the proposed framework in acquiring critical rock mass parameters, showing 51\% (dip direction) and 58\% (dip angle) improvement in discontinuity analysis accuracy over traditional point cloud inputs. The quantification of fracture/trace plane parameters overcomes the inherent limitation of dimensional deficiency in image-based 3D modeling. Results establish the engineering superiority of the DTGM in rock mass parameter resolution and quantitative analysis while also advancing digital twin implementation through a novel virtual modeling paradigm.},
+  preview     = {dt.jpg},
+  selected    = {true}
+}
+
+@article{xu2024fracture,
+  abbr        = {Bull. Eng. Geol. Environ.},
+  bibtex_show = {true},
+  title       = {Rock fracture identification algorithm based on the confidence score and non-maximum suppression},
+  author      = {Xu, Haoran and Tang, Shibin and Wang, Jia and Dong, Bo and Wang, Xu and Zhao, Kaiwen and Geng, Jiabao},
+  journal     = begeo,
+  volume      = {83},
   number      = {6},
-  pages       = {403--404},
-  year        = {1950},
-  publisher   = {American Association of Physics Teachers}
+  pages       = {213},
+  year        = {2024},
+  publisher   = {Springer},
+  doi         = {10.1007/s10064-024-03710-0},
+  url         = {https://doi.org/10.1007/s10064-024-03710-0},
+  abstract    = {The information of fractures in rock mass is an essential indicator to evaluate the quality of rock mass. It is precise and efficient to obtain information of fractures by computer vision (CV)-based fracture detection technologies. However, rock masses in practical engineering always exhibit complex fractures with messy edges, shadows, and uneven rock surfaces. These factors negatively impact the effectiveness of fracture detection algorithms. To address such issues, this paper proposes a confidence score-based rock fracture detection algorithm that can effectively identify fractures in complex situations. The image with fractures is traversed to acquire candidate points at first. We proposed a method to evaluate the confidence scores of these candidate points according to the values of Hessian matrix eigenvalues, the degree of symmetry, and the gray-scale value. The candidate points are further filtered through threshold restriction and non-maximum suppression. Furthermore, the complete centerlines of the fractures are obtained by the connection of the candidate points and the connection of discontinuous centerlines. Finally, pseudo-fractures and noise are eliminated to get complete fractures. Experimental results show that the newly proposed algorithm can accurately identify fractures in complex situations. The algorithm avoids interference and noise, which achieves more precise results than other conventional fracture detection algorithms, is an effective method to identify fractures in rocky geological engineering and can also serve as a guide for other relevant fracture identification algorithm in rock mass.},
+  preview     = {rf.jpg},
+  selected    = {true}
 }
 
-@article{PhysRev.47.777,
-  abbr              = {PhysRev},
-  title             = {Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author            = {Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract          = {In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal           = {Phys. Rev.},
-  location          = {New Jersey},
-  volume            = {47},
-  issue             = {10},
-  pages             = {777--780},
-  numpages          = {0},
-  year              = {1935},
-  month             = {May},
-  publisher         = aps,
-  doi               = {10.1103/PhysRev.47.777},
-  url               = {https://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html              = {https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf               = {example_pdf.pdf},
-  altmetric         = {248277},
-  dimensions        = {true},
-  google_scholar_id = {qyhmnyLat1gC},
-  video             = {https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info   = {. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation        = {* Example use of superscripts<br>† Albert Einstein},
-  selected          = {true},
-  inspirehep_id     = {3255}
-}
-
-@article{einstein1905molekularkinetischen,
-  title     = {{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author    = {Einstein, A.},
-  journal   = {Annalen der physik},
-  volume    = {322},
-  number    = {8},
-  pages     = {549--560},
-  year      = {1905},
-  publisher = {Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr    = {Ann. Phys.},
-  title   = {Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author  = {Einstein, A.},
-  journal = {Ann. Phys.},
-  volume  = {17},
-  pages   = {549--560},
-  year    = {1905}
-}
-
-@article{einstein1905electrodynamics,
-  title  = {On the electrodynamics of moving bodies},
-  author = {Einstein, A.},
-  year   = {1905}
-}
-
-@article{einstein1905photoelectriceffect,
+@article{tang2023review,
+  abbr        = {J. Cent. South Univ.},
   bibtex_show = {true},
-  abbr        = {Ann. Phys.},
-  title       = {{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}},
-  author      = {Albert Einstein},
-  abstract    = {This is the abstract text.},
-  journal     = {Ann. Phys.},
-  volume      = {322},
-  number      = {6},
-  pages       = {132--148},
-  year        = {1905},
-  doi         = {10.1002/andp.19053220607},
-  award       = {Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name  = {Nobel Prize}
+  title       = {Review for the microseismic source location in surrounding rock of deep-buried tunnel},
+  author      = {Tang, Shibin and Liu, Yonghao and Xu, Haoran and Chen, Ximao},
+  journal     = jcsu,
+  volume      = {30},
+  number      = {12},
+  pages       = {4182--4196},
+  year        = {2023},
+  publisher   = {Springer},
+  doi         = {10.1007/s11771-023-5503-5},
+  url         = {https://doi.org/10.1007/s11771-023-5503-5},
+  abstract    = {The purpose of this review is to introduce the principle and development of microseismic source localization technology in deep-buried tunnel engineering. First, it introduces the main methods of microseismic source localization and the main factors affecting the accuracy of source location are summarized, including velocity structure model, propagation path of microseismic wave, objective function, algorithm, monitoring sensors array, and arrival-time picking up of microseismic wave. Then, by analyzing the influence of these factors on the result of microseismic source localization, the advantages and disadvantages of each method are discussed, and the methods and measures to improve the accuracy are counseled. This review discusses the optimization of monitoring sensors array and provides theoretical guidance for rock fracture monitoring in engineering. Finally, a brief summary is given, and the future research direction of microseismic source localization is put forward.},
+  preview     = {jcsu.png}
 }
 
-@book{przibram1967letters,
-  bibtex_show = {true},
-  title       = {Letters on wave mechanics},
-  author      = {Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year        = {1967},
-  publisher   = {Vision},
-  preview     = {wave-mechanics.gif},
-  abbr        = {Vision}
-}
+% =============================================================
+%      Granted invention patents (lead student inventor)
+% =============================================================
+% These are listed on the CV; the publications page is generated from
+% papers.bib, so patents are kept in CV / about page rather than here.

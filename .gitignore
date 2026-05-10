@@ -13,3 +13,9 @@ assets/rendercv/rendercv_output/*.typ
 Gemfile.lock
 node_modules/
 vendor
+
+# local-only artifacts
+_jekyll_serve.log
+_jekyll_serve.log.err
+_posts_backup/
+assets/img/publication_preview/_originals/

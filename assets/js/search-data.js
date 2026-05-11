@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "Curriculum Vitae of Haoran Xu — PhD candidate in Geotechnical Engineering at Dalian University of Technology. The English PDF is also available via the download button above.",
+          description: "Curriculum Vitae of Haoran Xu — PhD candidate in Geotechnical Engineering at Dalian University of Technology.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";

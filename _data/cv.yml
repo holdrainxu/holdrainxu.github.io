@@ -7,9 +7,9 @@ cv:
   summary: >-
     PhD candidate (2nd year, expected graduation 2028) at Dalian University of
     Technology. Research at the interface of rock mechanics and AI: digital
-    twin of tunnels, multi-modal data fusion, diffusion-based microseismic
+    twin of tunnels, multimodal data fusion, diffusion-based microseismic
     denoising, and flexible, low-cost, automated vision-based monitoring of
-    high steep slopes and tunnel surrounding rock at large area.
+    high steep slopes and tunnel surrounding rock over large areas.
 
   social_networks:
     - network: GitHub
@@ -46,7 +46,7 @@ cv:
         start_date: 2018-09
         end_date: 2022-06
         highlights:
-          - "Graduated as the top student of the Civil Engineering programme."
+          - "Graduated first in class."
 
     Highlights:
       - name: Highlights
@@ -54,16 +54,13 @@ cv:
         keywords: >-
           First-author SCI: 2 CAS Tier-1 Top + 1 CAS Tier-2 Top, cumulative IF 21.6 ·
           5 granted invention patents (student first inventor) + 10+ published ·
-          Core technical contributor on 4 national / provincial projects (≈ 3.37 M CNY) ·
-          Sole technical lead on 2 industry-sponsored projects.
+          Core technical contributor on 4 national / provincial research projects and
+          sole technical lead on 2 industry-sponsored projects; cumulative funding ≈ 3.37 M CNY.
 
     Awards:
       - title: Doctoral Excellence Scholarship (top 3%)
-        authors:
-          - "Ministry of Education, China"
         date: 2025
-        awarder: Ministry of Education
-        summary: 10,000 CNY · One of the highest-prestige scholarships for PhD candidates in China.
+        summary: 10,000 CNY · One of the most prestigious scholarships for PhD candidates.
 
       - title: National Scholarship for Encouragement (×3 consecutive years)
         authors:
@@ -98,11 +95,12 @@ cv:
 
       - title: University-level Honors
         date: 2018-2022
-        awarder: DMU & DLUT
+        awarder: Dalian Maritime University & Dalian University of Technology
         summary: >-
-          Outstanding Bachelor's Thesis (DMU); Outstanding Postgraduate (DLUT, multiple times);
-          Second Prize, National College Computer Design Competition (university); Single-event
-          scholarships; Outstanding Student Cadre & Youth-League Cadre.
+          Outstanding Bachelor's Thesis (Dalian Maritime University); Outstanding Postgraduate
+          (Dalian University of Technology, multiple times); Second Prize, National College
+          Computer Design Competition (university); Single-event scholarships; Outstanding
+          Student Cadre & Youth-League Cadre.
 
     Publications:
       - title: A dual-condition diffusion-based microseismic signals denoiser for real-world engineering noise
@@ -222,19 +220,16 @@ cv:
           Industry contract with Guangxi Jiaoke Group · 300 k CNY · 2026.01–2027.02 · Role: sole
           technical lead. Independently delivered the project end-to-end, from technical roadmap
           to on-site deployment. Targeting large-area, low-cost, automated, real-time deformation
-          detection in cluttered natural scenes, proposed and implemented a high-density
+          monitoring in cluttered natural scenes, proposed and implemented a high-density
           pixel-tracking visual solution, protected by a granted Chinese invention patent.
         start_date: 2026-01-01
         end_date: 2027-02-01
-
-      - name: Other classified national engineering projects
-        summary: Details available upon request, subject to confidentiality.
 
       - name: NSFC Young Student Basic Research Program (Doctoral) · sole applicant
         summary: >-
           Independently authored all core sections of the proposal — rationale, research content,
           technical roadmap, feasibility analysis, expected outcomes — and submitted as the sole
-          applicant. End-to-end experience of an academic-grant application from research-question
+          applicant. End-to-end experience of a research-grant application from research-question
           framing to roadmap design.
         start_date: 2025-01-01
 
@@ -242,7 +237,7 @@ cv:
       - name: AI / Algorithms
         level: Advanced
         icon: fa-solid fa-brain
-        keywords: "Diffusion models, machine learning, point-cloud processing, signal processing, multi-modal data fusion, object detection"
+        keywords: "Diffusion models, machine learning, point-cloud processing, signal processing, multimodal data fusion, object detection"
 
       - name: Programming
         level: Advanced
@@ -267,10 +262,6 @@ cv:
         summary: "CET-6 (577); independently authoring and reviewing SCI papers."
 
     Service:
-      - name: Journal reviewer
-        icon: fa-solid fa-pen-nib
-        keywords: "Automation in Construction · Advanced Engineering Informatics · Int. J. Rock Mech. Min. Sci. · Rock Mechanics and Rock Engineering, etc."
-
       - name: Conferences
         icon: fa-solid fa-microphone
         keywords: "Multiple oral presentations at conferences in rock mechanics, underground engineering and intelligent monitoring."
@@ -286,4 +277,4 @@ cv:
     Interests:
       - name: Research interests
         icon: fa-solid fa-magnifying-glass
-        keywords: "Digital twin · Multi-modal data fusion · Tunnel surrounding-rock stability · High-precision real-time vision-based geo-hazard monitoring"
+        keywords: "Digital twin · Multimodal data fusion · Tunnel surrounding-rock stability · Real-time, high-precision vision-based monitoring of geological hazards"
